@@ -1,0 +1,112 @@
+body {
+    background:linear-gradient(lightsteelblue, rgb(255, 101, 101));
+    text-align: center;
+    color:darkblue;
+    font-family: 'Happy Monkey';
+    }
+
+h1, h2, h3 {
+    text-shadow: 0px 0px 10px white;        
+}
+
+#second-line {
+    background-color: palevioletred;
+    padding: 8px 14px;
+    border: 0 white solid;
+    border-radius: 6px;
+    color: whitesmoke;
+    margin-bottom: 6px;
+}
+
+#third-line {
+    background-color: palevioletred;
+    padding: 8px 14px;
+    border: 0 white solid;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#avatar {
+    border: 5px solid whitesmoke;
+    border-radius: 100%;
+    width: 150px;
+}
+
+h2, h3 {
+    border: inherit;
+}
+
+.here-is {
+    color: red;
+    margin-bottom: 2px;
+}
+
+.hover-over {
+    margin-top: 3px;
+    margin-bottom: 18px;
+}
+
+.image-gif {
+    background-image: url("images/gift.png") ;
+    width: 550px;
+    height: 371px;
+    background-size: cover;
+    margin: 20px 0 80px 0;
+    border: 3px solid rosybrown;
+
+}
+
+.image-gif:hover {
+    width: 550px;
+    height: 371px;
+    background-size: cover;
+    margin: 20px 0 80px 0;
+    border: 3px solid rosybrown;
+} 
+#image-fell:hover {
+    background-image: url("images/gigle.gif");
+}
+#image-cats:hover {
+    background-image: url("images/cats.gif");
+}
+#image-sexy:hover {
+    background-image: url("images/sexy.gif");
+}
+#image-love:hover {
+    background-image: url("images/love.gif");
+}
+
+#gift-img-cheers {
+    background-image: url("images/gift.png") ;
+    width: 600px;
+    height: 350px;
+    background-size: cover;
+    margin: 20px auto 80px auto;
+
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/best.gif");
+    background-size: cover;
+    height: 600px;
+    height: 350px;
+    margin: 20px auto 80px auto;
+}
+.italic {
+    font-style: italic;
+    color: darkblue;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px; 
+    width: 600px;
+    text-align: center;
+}
+#underline {
+    text-decoration: underline;
+}
